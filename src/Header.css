@@ -1,0 +1,48 @@
+/* src/components/Header.css */
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Brand Logo and Text */
+  .brand h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .brand-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 20px; /* Add margin to separate links */
+    transition: color 0.3s ease;
+  }
+  
+  /* Remove link highlighting */
+  .header-link:focus, .header-link:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Adjust spacing as needed */
+  
